@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.counter {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.btnArea {
+  margin: 10vh auto;
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  border: none;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none;
+}
